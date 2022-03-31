@@ -1,0 +1,19 @@
+model_type: NeuMF
+data:
+  train_rating: ./data/ml-1m.train.rating
+  test_rating: ./data/ml-1m.test.rating
+  test_negative: ./data/ml-1m.test.negative
+model_path:
+  GMF: ./models/gmf.pth
+  MLP: ./models/mlp.pth
+  NeuMF: ./models/neumf.pth
+params:
+  learning_rate: 0.001
+  dropout: 0.0
+  batch_size: 256
+  epochs: 20
+  top_k: 10
+  num_factors: 32
+  num_layers: 3
+  num_negative_samples: 4
+  num_test_negative_samples: 99
