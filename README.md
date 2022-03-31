@@ -1,2 +1,2 @@
-# keras-neural-collaborative-filtering
-A Keras implementation of Neural Collaborative Filtering
+# torch-neural-collaborative-filtering
+A PyTorch implementation of Neural Collaborative Filtering
